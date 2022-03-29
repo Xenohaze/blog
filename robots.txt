@@ -15,3 +15,6 @@ Disallow: /vendors/
 Disallow: /fancybox/
 Disallow: /old/
 
+Sitemap: https://eden.tk/Sitemap.xml
+Sitemap: https://eden.tk/baidusitemap.xml
+
