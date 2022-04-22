@@ -4,7 +4,7 @@
   <url>
     <loc>https://eden.tk/data/sentences.json</loc>
     
-    <lastmod>2022-03-28</lastmod>
+    <lastmod>2022-04-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +76,7 @@
 
   <url>
     <loc>https://eden.tk/</loc>
-    <lastmod>2022-03-29</lastmod>
+    <lastmod>2022-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,7 +84,7 @@
   
   <url>
     <loc>https://eden.tk/tags/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2022-03-29</lastmod>
+    <lastmod>2022-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
