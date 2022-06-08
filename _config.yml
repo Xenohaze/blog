@@ -11,11 +11,16 @@ author: Nonex
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+deploy:
+  type: 'git'
+  repo: git@github.com:Xenohaze/blog
+  branch: gh-pages
+  ignore_hidden: false
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://xenohaze.github.io/
-root: /blog/
-permalink: :year/:month/:day/:title/
+url: https://eden.tk
+root: /
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -30,6 +35,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - baidu_verify_code-R34fhUdC9J.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -92,17 +98,45 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  - .nojekyll
 exclude:
 ignore:
 
+aplayer:
+  cdn: https://fastly.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js
+  style_cdn: https://fastly.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css
+  meting: true
+  meting_cdn: https://fastly.jsdelivr.net/npm/meting@1/dist/Meting.min.js
+
 # Extensions
-## Plugins: https://hexo.io/plugins/
+Plugins: 
+  hexo-generator-feed
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: yun
+
+
+
+# algolia:
+#   appId: "S2BS2CCUND"
+#   apiKey: "3c7c1829a528859ce00253197ae64912"
+#   adminApiKey: "dc6c3a1392a284733cacb5fe56c1e5b4"
+#   chunkSize: 5000
+#   indexName: "nonex"
+#   fields:
+#     - content:strip:truncate,0,200
+#     - tags
+#     - permalink
+#     - excerpt:strip
+#     - title
+#     - categories
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: 'git'
-  repo: git@github.com:Xenohaze/blog
-  branch: gh-pages
+

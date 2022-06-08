@@ -1,0 +1,167 @@
+favicon: /favicon.png
+
+cdn:
+  pre: https://fastly.jsdelivr.net/gh/Xenohaze/blog@gh-pages
+#   css:
+#   js:
+#     base:
+#     async:
+#       # 默认引入的图标资源，使用 iconfont
+#       iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
+#     defer:\
+
+vendors:
+  # 以 '/' 结尾
+  host: 'https://fastly.jsdelivr.net/npm/'
+
+head:
+  js:
+    async:
+      # 这里是你从 iconfont 处获得的图标链接。
+      iconfont: //at.alicdn.com/t/font_3283261_fisjnjpzclw.js
+
+reward:
+  enable: false
+
+say:
+  enable: true
+  api: https://cdn.jsdelivr.net/gh/Xenohaze/blog@master/sentences.json
+  hitokoto:
+    enable: false
+
+baidu_push: true
+
+
+disqus:
+  count: true
+
+disqusjs:
+  enable: true
+  shortname: eden-7
+  siteName: Nonexの幻象図書館
+  identifier:
+  url: 
+  title:
+  api: https://disqus.skk.moe/disqus/
+  apikey: q1Ge7ea7gKBuOmGnGkWJkTBYQW5ly25CjnQiq8ZycObFUSjb8HXJfnz7RRI6Wt4n
+  nocomment: 还没有读者的笔记
+  # admin:
+  # adminLabel:
+
+
+bg_image:
+  enable: true
+  url: https://cdn.jsdelivr.net/gh/Nonexistentx/Picbed@main/img/v.jpg
+  dark: https://cdn.jsdelivr.net/gh/Nonexistentx/Picbed@main/img/xing-kong-shi-tu-qiangzhi-tw-2560x1600_7.jpg
+  # blur: 30px # 设置背景模糊程
+
+google_analytics:
+  enable: true
+  id: G-G4Y958T6MZ
+
+
+
+local_search:
+  enable: true
+
+
+mode: time
+
+wordcloud:
+  enable: true
+
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+
+
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: QQ
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: https://wpa.qq.com/msgrd?v=3&uin=961183547&site=qq&menu=yes
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=111240005
+    icon: icon-netease-cloud-music-line
+    color: "#C10D0C"
+  - name: Telegram
+    link: https://t.me/NEXISTS
+    icon: icon-telegram-line
+    color: "#0088CC"
+  - name: Bangumi
+    link: https://bangumi.tv/user/nonexistentx
+    icon: icon-pgc_bangumi
+    color:
+
+pages:
+
+banner:
+  enable: true
+  title: 
+    - Nonex
+    -  の 
+    - 幻
+    - 象
+    - 図
+    - 書
+    - 館
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+fireworks:
+  enable: true
+  colors:
+    - "102, 167, 221"
+    - "62, 131, 225"
+    - "33, 78, 194"
+
+scrollreveal:
+  enable: true
+  targets:
+    - .post-card
+    - .markdown-body img
+
+
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+avatar:
+  enable: true
+  url: /avatar.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 👾
+    message: 我渗透你正如你渗透我一般
+
+footer:
+  since: 2020
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+  live_time:
+    enable: true
+    prefix: 本馆已妄想
+    suffix: (✿◡‿◡)
+    start_time: "2022-03-27T00:00:00"
+
